@@ -1,0 +1,146 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: 13px/1.5 "Helvetica",Lucida Grande,verdana,sans-serif;
+	line-height: 24px;
+	color: #6E6E6E;
+}
+
+
+a:focus {
+	outline: 1px dotted invert;
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+h5 {
+	font-size: 17px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+li {
+	margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+	margin-bottom: 20px;
+}
+
+td#red {
+	color: #ff0000;	
+}
+
+td#riscado {
+	text-decoration: line-through;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000;
+}
+
+/* Especiais
+----------------------------------------------------------------------------------------------------*/
+#conteudo h3 {
+	color: #242d7c;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+
+#conteudo h4 {
+	color: #FFF;
+	margin-top: 4px;
+	background-color: #242d7c;
+	padding: 10px;
+	text-align: center;
+}
+
+#conteudo p {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+#conteudowesb p {
+	margin-top: 10px;
+	font-size: 14px;
+   color: #000000;
+}
+
+#bottom h3 {
+	font-size: 1.1em;
+	margin: 0px;
+	line-height: 1.4;
+	width: 220px;
+}
+#bottom p {
+	margin-left: 56px;
+	font-size: 12px;
+	width: 165px;
+}
+#footer p {
+	margin-bottom:0px;
+}
